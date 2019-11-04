@@ -82,3 +82,13 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+input[type="file"] {
+  position: absolute;
+  left: -10000px;
+}
+
+label.custom-file-label {
+  display: block;
+  position: relative;
+}
