@@ -1,0 +1,16 @@
+{
+    "short_name": "VHUB",
+    "name": "VUBHUB",
+    "icons": [
+      {
+        "src": "/static/favicon.ico",
+        "type": "image/png",
+        "sizes": "128x128"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ff4141"
+  }

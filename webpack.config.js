@@ -5,6 +5,7 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: {
         "index": "./src/index.ts",
+        "sw": "./src/sw.ts"
     },
     output: {
         path: path.join(__dirname, 'blog/static/blog/js'),
