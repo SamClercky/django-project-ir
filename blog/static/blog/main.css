@@ -1,7 +1,11 @@
 body {
+  display: flex;
   background: #fafafa;
   color: #333333;
   margin-top: 5rem;
+  min-height: 95vh;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,12 +16,15 @@ ul {
   margin: 0;
 }
 
+main {
+  padding-top: 0.5rem;
+}
+
 .bg-steel {
   background-color: #3e3a39;
 }
 
 .site-header .navbar-nav .nav-link {
-  /* color: #3e3a39; */
   color: #ff4141;
 }
 
@@ -92,4 +99,37 @@ input[type="file"] {
 label.custom-file-label {
   display: block;
   position: relative;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #3e3a39;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: auto;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  min-height: 12vh;
+}
+
+footer span.heart {
+  color: #ff4141;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-weight: bolder;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  font-weight: bolder;
+  color: white;
+}
+
+footer a:hover {
+  color: lightgray;
 }
