@@ -3,10 +3,12 @@ const path = require("path");
 module.exports = {
     mode: "development",
     devtool: 'cheap-module-eval-source-map',
-    entry: "./src/index.ts",
+    entry: {
+        "index": "./src/index.ts",
+    },
     output: {
         path: path.join(__dirname, 'blog/static/blog/js'),
-        filename: "index.bundle.js"
+        filename: "[name].bundle.js"
     },
     watch: true,
     resolve: {
